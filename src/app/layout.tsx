@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className='bg-slate-50' lang='en'>
+    <html className='bg-gradient-to-b from-slate-50 to-slate-400 ' lang='en'>
       <body className={saira.className}>
         <Header />
         {children}

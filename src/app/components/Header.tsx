@@ -7,7 +7,7 @@ const sairaStencil = Saira_Stencil_One({
 
 export function Header() {
   return (
-    <header className='flex px-24 py-5 items-center justify-between shadow-sm shadow-slate-600 bg-slate-100 '>
+    <header className='flex px-14 py-7 items-center justify-between shadow-sm shadow-fuchsia-500 '>
       <div className='font-bold text-[30px] text-fuchsia-800 '>
         <a className={sairaStencil.className} href='/'>
           <p>CECILIUS</p>
