@@ -19,10 +19,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className='bg-gradient-to-b from-slate-50 to-slate-400 ' lang='en'>
+    <html className='h-screen bg-gradient-to-b from-slate-50 to-slate-400 ' lang='en'>
       <body className={saira.className}>
         <Header />
-        {children}
+        <div className='p-4' >
+          {children}
+        </div>
       </body>
     </html>
   );
